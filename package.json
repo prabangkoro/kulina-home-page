@@ -1,0 +1,21 @@
+{
+  "name": "kulina",
+  "version": "1.0.0",
+  "description": "kulina page",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp echo-words",
+    "dev-compile": "gulp sass-compile",
+    "watch": "gulp watch"
+  },
+  "author": "babang",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
