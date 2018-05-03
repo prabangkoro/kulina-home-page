@@ -1,0 +1,12 @@
+// header styling
+
+nav{
+  background-color: orange;
+  text-align: center;
+  a{
+    color: rgba($color: #FFFFFF, $alpha: .7);
+  }
+  li.active>a{
+    color: rgba($color: #FFFFFF, $alpha: 1);
+  }
+}

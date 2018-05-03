@@ -4,8 +4,8 @@
   "description": "kulina page",
   "main": "index.js",
   "scripts": {
-    "test": "gulp echo-words",
-    "dev-compile": "gulp sass-compile",
+    "run-dev": "gulp run-dev",
+    "run-prd": "gulp run-prd",
     "watch": "gulp watch"
   },
   "author": "babang",
@@ -16,6 +16,8 @@
   "devDependencies": {
     "browser-sync": "^2.24.2",
     "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
+    "gulp-clean-css": "^3.9.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
   }
 }
