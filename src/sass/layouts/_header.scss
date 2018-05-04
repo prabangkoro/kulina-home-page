@@ -2,10 +2,13 @@
 
 nav{
   //bg
-  background-color: rgba(253, 115, 20, 0);;
+  background-color: rgba(253, 115, 20, 0);
+  &.bg-show{
+    background-color: rgba(253, 115, 20, 1);
+  }
   //text
   text-align: center;
-  //padding
+  
   &.navbar{
     padding-top: 1rem;
     padding-bottom: 1rem;

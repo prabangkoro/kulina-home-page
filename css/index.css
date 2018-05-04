@@ -6317,6 +6317,8 @@ body {
 nav {
   background-color: rgba(253, 115, 20, 0);
   text-align: center; }
+  nav.bg-show {
+    background-color: #fd7314; }
   nav.navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -6339,7 +6341,33 @@ nav {
     padding-bottom: 30vh; }
 
 footer {
-  background-color: white; }
+  background-color: white;
+  padding-top: 3rem; }
+  footer .container-fluid {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding-top: 2rem;
+    padding-bottom: 4rem; }
+    footer .container-fluid p {
+      text-align: center;
+      display: block; }
+      footer .container-fluid p.right-footer {
+        display: none; }
+      footer .container-fluid p.right-footer i {
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 1.5rem; }
+  @media (min-width: 1100px) {
+    footer .container-fluid {
+      width: 1100px;
+      margin-left: auto;
+      margin-right: auto; }
+      footer .container-fluid p {
+        text-align: left;
+        display: inline; }
+        footer .container-fluid p.right-footer {
+          text-align: right;
+          display: block; } }
 
 button {
   background-color: #fd7314;
@@ -6364,6 +6392,12 @@ button {
       padding-bottom: .5rem;
       padding-left: .5rem;
       padding-right: .5rem; }
+      .card .card-body p.button {
+        text-align: left;
+        padding-top: .7rem; }
+        @media (min-width: 768px) {
+          .card .card-body p.button {
+            text-align: center; } }
     .card .card-body h5 {
       padding-top: .5rem;
       padding-bottom: 0;
