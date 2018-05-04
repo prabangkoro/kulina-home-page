@@ -1,0 +1,43 @@
+// section styling
+
+section{
+  //bg
+  background-color: rgba(253, 253, 253, 1);
+  //padding
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin: 0;
+  //p
+  p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  //h1
+  h1{
+    padding-bottom: 2rem;
+  }
+  //responsive
+  //small viewport
+
+  //medium viewport
+  //large viewport
+  @media (min-width: $screen-lg-min) {
+    .container-fluid{
+      width: $screen-lg-min;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 5rem;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+.section-ligth{
+  background-color: rgba($color: #ffffff, $alpha: 1.0);
+}
+
+.intro{
+  background-color: rgba(253, 115, 20, .3);
+}

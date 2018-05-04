@@ -1,10 +1,22 @@
 // header styling
 
 nav{
-  background-color: orange;
+  //bg
+  background-color: rgba(253, 115, 20, 0);;
+  //text
   text-align: center;
+  //padding
+  &.navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
   a{
     color: rgba($color: #FFFFFF, $alpha: .7);
+    &:hover{
+      color: rgba($color: #FFFFFF, $alpha: 1);
+    }
   }
   li.active>a{
     color: rgba($color: #FFFFFF, $alpha: 1);

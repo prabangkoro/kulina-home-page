@@ -8,10 +8,10 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
 // basic style
+@import 'base/_variable.scss';
 @import 'base/_normalize.scss';
 @import 'base/_base.scss';
 @import 'base/_mixin.scss';
-@import 'base/_variable.scss';
 
 // layout-based style
 @import 'layouts/_header.scss';

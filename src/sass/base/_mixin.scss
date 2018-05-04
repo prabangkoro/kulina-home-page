@@ -1,0 +1,13 @@
+// mixin
+
+@mixin box-shadow($hoffset, $voffset, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $hoffset $voffset $blur $color;
+    -moz-box-shadow:inset $hoffset $voffset $blur $color;
+    box-shadow:inset $hoffset $voffset $blur $color;
+  } @else {
+    -webkit-box-shadow: $hoffset $voffset $blur $color;
+    -moz-box-shadow: $hoffset $voffset $blur $color;
+    box-shadow: $hoffset $voffset $blur $color;
+  }
+}

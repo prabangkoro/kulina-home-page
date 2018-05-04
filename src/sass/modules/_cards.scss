@@ -1,0 +1,25 @@
+//cards styling
+
+.card{
+  //margin
+  margin-bottom: 2rem;
+  //box
+  border-width: 0;
+  //shadow
+  @include box-shadow(0, 0, 3rem, rgba(0,0,0,.3));
+  .card-body{
+    padding: 1rem;
+    p{
+      padding-top: .3rem;
+      padding-bottom: .5rem;
+      padding-left: .5rem;
+      padding-right: .5rem;
+    }
+    h5{
+      padding-top: .5rem;
+      padding-bottom: 0;
+      padding-left: .5rem;
+      padding-right: .5rem;
+    }
+  }
+}
